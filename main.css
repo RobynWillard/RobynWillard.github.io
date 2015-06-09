@@ -8,6 +8,7 @@ body {
 ul {
   padding:0;
   list-style-type:none;
+  text-align: center;
 }
 
 li {
@@ -15,4 +16,24 @@ li {
 }
 
 img {max-width:100%;
+}
+
+.left {
+float:left;
+width:33.33%;
+}
+
+.right {
+float:right;
+width: 66%;
+}
+
+.right > img {
+	float:left;
+	width:75%;
+}
+
+.right > div {
+	float:right;
+	width:25%;
 }
