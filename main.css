@@ -37,3 +37,16 @@ width: 66%;
 	float:right;
 	width:25%;
 }
+
+@media screen and (max-width: 1000px) {
+    .left, .right {
+        float: none;
+        width: auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    .right > img, .right > div {
+        float: none;
+        width: auto;
+    }
+}
